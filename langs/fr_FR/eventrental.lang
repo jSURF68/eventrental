@@ -1,0 +1,210 @@
+# Module description
+Module500000Name = EvenRental
+Module500000Desc = Module de gestion de location événementiel
+
+# Permissions
+Permission500001 = Consulter les événements
+Permission500002 = Créer/modifier les événements
+Permission500003 = Supprimer les événements
+Permission500004 = Valider les événements
+Permission500005 = Consulter le matériel
+Permission500006 = Gérer le matériel
+Permission500007 = Utiliser l'application mobile
+
+# Menu
+EvenRental = EvenRental
+Events = Événements
+Equipment = Matériel
+Planning = Planning
+
+# Common
+Event = Événement
+Events = Événements
+Material = Matériel
+Unit = Unité
+Units = Unités
+Checkout = Sortie
+Return = Retour
+Phase = Phase
+Status = Statut
+
+# Pages
+EquipmentList = Liste du Matériel
+NewProduct = Nouveau Produit
+ViewList = Vue Liste
+ViewKanban = Vue Kanban
+
+# Fields
+Ref = Référence
+Label = Libellé
+CategoryEvent = Catégorie
+SubCategory = Sous-catégorie
+PricePerDay = Prix/jour
+PriceWeekend = Prix weekend
+SecurityDeposit = Caution
+QtyTotal = Qté totale
+QtyAvailable = Disponible
+QtyRented = Loué
+QtyMaintenance = Maintenance
+QtyBroken = En panne
+Weight = Poids
+Dimensions = Dimensions
+PowerConsumption = Puissance (W)
+PreparationTime = Temps prépa (h)
+TechniciansRequired = Techniciens requis
+OutdoorCompatible = Compatible extérieur
+Status = Statut
+
+# Categories
+Son/Audio = Son/Audio
+Éclairage = Éclairage
+Scène/Structure = Scène/Structure
+Mobilier = Mobilier
+Décoration = Décoration
+Technique = Technique
+
+# Status
+Enabled = Activé
+Disabled = Désactivé
+
+# Common
+All = Tout
+NoRecordFound = Aucun enregistrement trouvé
+Edit = Modifier
+Delete = Supprimer
+
+# Units
+EventRentalUnit = Unité Matériel
+Units = Unités
+SerialNumber = N° de série
+QRCode = QR Code
+InternalNumber = N° interne
+PhysicalLabel = Étiquette physique
+PhysicalCondition = État physique
+CurrentLocation = Emplacement actuel
+StorageZone = Zone de stockage
+UsageHours = Heures d'utilisation
+RentalCount = Nb locations
+LastRentalDate = Dernière location
+PurchaseDate = Date d'achat
+ServiceDate = Mise en service
+NextRevision = Prochaine révision
+RevisionInterval = Intervalle révision
+PurchasePrice = Prix d'achat
+CurrentValue = Valeur actuelle
+Observations = Observations
+
+# Status Units
+Available = Disponible
+Reserved = Réservé
+Rented = Loué
+InTransit = En transit
+Maintenance = Maintenance
+Broken = En panne
+Retired = Réformé
+
+# Conditions
+New = Neuf
+Excellent = Excellent
+Good = Bon
+Average = Moyen
+Worn = Usé
+Defective = Défaillant
+
+# Errors
+SerialNumberAlreadyExists = Ce numéro de série existe déjà
+QRCodeAlreadyExists = Ce QR code existe déjà
+
+# Events
+EventRental = Événement
+Events = Événements
+EventName = Nom événement
+EventType = Type événement
+EventLocation = Lieu événement
+EventAddress = Adresse événement
+StartDate = Date début
+EndDate = Date fin
+SetupDate = Date montage
+TeardownDate = Date démontage
+GuestCount = Nb invités
+CurrentPhase = Phase actuelle
+ValidationDate = Date validation
+CancellationDate = Date annulation
+CancellationReason = Motif annulation
+
+# Phases
+PhasePending = En attente
+PhaseValidated = Validé
+PhaseInProgress = En cours
+PhaseReturn = Retour
+PhaseCancelled = Annulé
+PhaseArchived = Archivé
+
+# Common
+ThirdParty = Tiers
+Commercial = Commercial
+Project = Projet
+Proposal = Proposition
+Invoice = Facture
+TotalHT = Total HT
+TotalVAT = Total TVA
+TotalTTC = Total TTC
+
+# Events List
+EventsList = Liste des Événements
+NewEvent = Nouvel Événement
+EventsStatistics = Statistiques Événements
+
+# Fields
+Ref = Référence
+EventName = Nom événement
+Client = Client
+Phase = Phase
+StartDate = Date début
+Location = Lieu
+TotalTTC = Total TTC
+
+# Actions
+Edit = Modifier
+Delete = Supprimer
+View = Voir
+
+# Event Card
+NewEvent = Nouvel Événement
+Event = Événement
+DeleteEvent = Supprimer événement
+ConfirmDeleteObject = Êtes-vous sûr de vouloir supprimer cet objet ?
+ChangePhase = Changer de phase
+ConfirmChangePhase = Confirmer le passage en phase %s ?
+Reason = Motif
+Duration = Durée
+BackToList = Retour à la liste
+Card = Fiche
+ToClone = Dupliquer
+
+# Event Types
+Select = Sélectionner
+Mariage = Mariage
+Anniversaire = Anniversaire
+Concert = Concert
+Conférence = Conférence
+Festival = Festival
+Autre = Autre
+
+# Phase Actions
+Valider = Valider
+Démarrer = Démarrer
+Annuler = Annuler
+
+# Equipment Management
+EquipmentLines = Matériel événement
+AddEquipment = Ajouter matériel
+ManageEquipment = Gérer le matériel
+Product = Produit
+Quantity = Quantité
+UnitPrice = Prix unitaire
+Total = Total
+SelectProduct = Sélectionner un produit
+EquipmentAdded = Équipement ajouté avec succès
+LineDeleted = Ligne supprimée
+NoEquipmentAdded = Aucun matériel ajouté à cet événement
